@@ -55,7 +55,7 @@ void loop() {
     nextMillis = millis() + 5000;
     Serial.println("nextMillis Updated.");
     
-    const char * data = "Hello, Ryan!\n";
+    const char * data = "Hello, My World!\n";
     int str_len = strlen(data);
 
     sendData(data, str_len);
